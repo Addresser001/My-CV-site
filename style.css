@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(212, 211, 211) ;
+}
+.container{
+    width: 55%;
+    margin: auto;
+    background-color: white;
+    padding: 50px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.name-section{
+    display: flex;
+}
+.name{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.address{
+    font-size: 18px;
+}
+
+
+main{
+    margin-top: 50px;
+}
+
+.section-headers{
+    width: 97.5%;
+    background-color: rgb(212, 211, 211);
+    padding: 5px 10px;
+}
+
+.section-writeUps{
+    font-size: 20px;
+    padding: 20px 0px 0px 10px;
+    line-height: 25px;
+}
+
+
+
+.skills h3{
+    margin: 30px 0px 15px 0px;
+    
+}
+
+.material-icons{
+    font-size: 12px;
+    padding-right: 20px;
+}
+.skills p{
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+.experience h3{
+    margin: 30px 0px 10px 0px;
+}
+
+.position_in_experience-and-date{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.experience p{
+    padding-top: 10px;
+}
+.experience-sub-div{
+    margin-top: 10px;
+}
+.experience-writeUp{
+    margin-left: 20px;
+}
+
+.build_overflow{
+    margin-left: 32px;
+}
+
+
+
+
+
+.degree-and-date{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.education h3{
+    margin: 30px 0px 10px 0px;
+}
+.education p{
+    padding-top: 10px;
+}
+
+.waec-section{
+    margin-top: 30px;
+}
+
+
+@media(max-width:1023px){
+   
+    .container{
+        width: 80%;
+        margin: auto;
+        background-color: white;
+        padding: 50px;
+    }
+    .section-headers{
+        width: 96.7%;
+        background-color: rgb(212, 211, 211);
+        padding: 5px 10px;
+    }
+    .address{
+        font-size: 17px;
+    }
+}
+
+
+
+
+@media(max-width:767px){
+    .container{
+        width: 100%;
+        padding: 0px;
+        margin: 0%;
+    }
+
+    header{
+        width: 95%;
+        margin: auto;
+        padding-top: 10px;
+        border-bottom: 1px solid silver;
+        padding-bottom: 10px;
+    }
+    .name-section{
+        display: flex;
+
+    }
+    .name{
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    
+    .address{
+
+        font-size: 15px;
+        
+        width: 100%;
+        
+    }
+
+
+
+    main{
+        margin: auto;
+        margin-top: 50px;
+        width: 95%;
+        padding-bottom: 20px;
+    }
+    
+    .section-headers{
+        width: 93%;
+        background-color: rgb(212, 211, 211);
+        padding: 5px 10px;
+        font-size: 16px;
+        margin: auto;
+    }
+    
+    .section-writeUps{
+        font-size: 18px;
+        padding: 10px 10px 0px 10px;
+        line-height: 23px;
+    }
+    
+
+
+    .skills h3{
+        margin: 30px 0px 10px 0px;
+        
+    }
+
+    .skills p{
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+
+
+
+
+
+
+   
+    .experience-sub-div{
+        margin-top: 5px;
+    }
+    .experience-writeUp{
+        margin-left: 10px;
+    }
+    
+    .build_overflow{
+        margin-left: 0px;
+    }
+
+
+
+
+
+    .degree-and-date{
+        flex-direction: column;
+    }
+}
